@@ -79,7 +79,7 @@ public class PrincipalActivity extends AppCompatActivity
 
     }
 
-    //*************AO PRESSIONAR O BUTÃO DE VOLTAR NO CELULAR, É VERIFICADO SE EXISTE UM "addToBackStack("TAG")"
+    //*************AO PRESSIONAR O BOTÃO DE VOLTAR NO CELULAR, É VERIFICADO SE EXISTE UM "addToBackStack("TAG")"
     //*************SE EXISTIR ELE PEGA ESSA TAG E VOLTA PARA O FRAGMENTO ANTERIOR
    /* @Override
     public void onBackPressed() {
