@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFFFF">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/id_home"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Home" />
+        <item
+            android:id="@+id/id_produto"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Nossos Produtos" />
+
+        <item
+            android:id="@+id/id_promocao"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Promoções" />
+
+        <item
+            android:id="@+id/id_loja_proxima"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Lojas Proximas" />
+
+        <item
+            android:id="@+id/id_fale_conosco"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Fale conosco" />
+
+        <item
+            android:id="@+id/id_sobre_empresa"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Sobre a Empresa" />
+
+    </group>
+
+    <item android:title="Usuario">
+        <menu>
+            <item
+                android:id="@+id/id_promocoes_cadastradas"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Participando" />
+            <item
+                android:id="@+id/id_perfil_usuario"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Perfil do Usuario" />
+            <item
+                android:id="@+id/id_login"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Login" />
+        </menu>
+    </item>
+
+    <item android:title="Funcionarios"
+        android:id="@+id/itensFuncionario">
+        <menu>
+            <item
+                android:id="@+id/id_pesquisa"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Pesquisa de Campo" />
+            <item
+                android:id="@+id/id_resultado"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Resultado Pesquisa" />
+        </menu>
+    </item>
+
+</menu>

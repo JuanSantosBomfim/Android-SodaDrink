@@ -1,0 +1,107 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sodadrink.br.mobile.FaleConoscoFragment"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="30dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fale Conosco"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/edtNomeFaleConosco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Nome"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/edtEmailFaleConosco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo de comentario"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="18dp"/>
+
+        <RadioGroup
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:id="@+id/rdoSugestaoFaleConosco"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="Sugestão" />
+
+            <RadioButton
+                android:id="@+id/rdoCriticaFaleConosco"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="Critica"
+                android:layout_marginLeft="40dp"/>
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/edtTelefoneFaleConosco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Telefone"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtCelularFaleConosco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Celular"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtComentarioFaleConosco"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:hint="Comentario"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/btnEnviarFaleConosco"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="Enviar"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:background="#FF5722"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+
+</ScrollView>

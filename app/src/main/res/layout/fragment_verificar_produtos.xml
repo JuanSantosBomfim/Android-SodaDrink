@@ -1,0 +1,45 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sodadrink.br.mobile.VerificarProdutosFragment"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edtBuscaBebidas"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:hint="Encontre nossas bebidas"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/btnBuscarProdutos"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_weight="2"
+                android:text="Buscar"
+                android:background="#FF5722"
+                android:textColor="#fff"/>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listViewNossosProdutos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</ScrollView>

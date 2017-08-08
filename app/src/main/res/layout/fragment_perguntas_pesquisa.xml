@@ -1,0 +1,63 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sodadrink.br.mobile.PerguntasPesquisaFragment"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/txtNumeroPergunta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 - Pergunta"
+            android:textSize="22dp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_principal"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/txtPergunta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:text="Você conhece já conhecia os produto da SodaDrink"/>
+
+        <Button
+            android:id="@+id/btnSim"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="Sim"
+            android:background="#FF5722"
+            android:textColor="#FFF"/>
+
+        <Button
+            android:id="@+id/btnNao"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Não"
+            android:background="#FF5722"
+            android:textColor="#FFF"/>
+
+    </LinearLayout>
+
+</ScrollView>

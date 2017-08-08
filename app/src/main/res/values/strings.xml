@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SodaDrink</string>
+    <string name="title_activity_principal">SodaDrink</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Nada</string>
+
+    <string name="title_activity_cadastrar">Faça o seu cadastro</string>
+    <string name="title_activity_lojas_proximas">Mapa</string>
+    <string name="title_activity_mapa">Mapa</string>
+</resources>
